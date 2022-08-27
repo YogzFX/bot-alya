@@ -23,14 +23,14 @@ global.mess = {
     group: 'Fitur Digunakan Hanya Untuk Group!',
     private: 'Fitur Digunakan Hanya Untuk Private Chat!',
     bot: 'Fitur Khusus Pengguna Nomor Bot',
-    wait: 'Tunggu sebentar, sedang di proses',
+    wait: 'Proses Ngab Sabar!, orang sabar di sayang janda',
     endLimit: 'Limit Harian Anda Telah Habis, Limit Akan Direset Setiap Jam 12',
 }
 global.limitawal = {
     premium: "Infinity",
     free: 100
 }
-global.gambar = 'https://telegra.ph/file/7858fc96fffda74b3ab44.jpg' //disini gambar bot nya lu bisa ganti pink gambar ini dengan link gambar punya lu
+global.gambar = 'https://telegra.ph/file/9fecf6d48c326bfd9f2d1.jpg' //disini gambar bot nya lu bisa ganti pink gambar ini dengan link gambar punya lu
 global.sc = fs.readFileSync('./media/sc.jpg')
 global.tq = fs.readFileSync('./media/tq.jpg')
 global.menu = fs.readFileSync('./media/menu.jpg')
