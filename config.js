@@ -2,14 +2,14 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 // Other
-global.owner = ['6285815975368']
-global.premium = ['6285815975368']
-global.ownername = 'Liya'
-global.botname = 'AliyaBot'
-global.packname = '© by AliyaBot'
-global.gc = 'https://bit.ly/3KMlmv2'
+global.owner = ['6289510598381']
+global.premium = ['6289510598381']
+global.ownername = 'YogzFX'
+global.botname = '𝒁𝒆𝒏𝒏𝑺𝒌𝒚-𝑩𝒐𝒕𝒛'
+global.packname = 'Created By 𝒁𝒆𝒏𝒏𝑺𝒌𝒚-𝑩𝒐𝒕𝒛'
+global.gc = 'https://chat.whatsapp.com/KNkpoT4oX5yFA18GlPttgl'
 global.linkyt = 'https://youtube.com/channel/UC9Si3U0o9dGS9MDfJR5iF6Q'
-global.linkgc = 'https://chat.whatsapp.com/DwP6uHYBWBc6TBSsNJrzwN'
+global.linkgc = 'https://chat.whatsapp.com/KNkpoT4oX5yFA18GlPttgl'
 global.limitawal = '100'
 global.author = '@alya.xzy'
 global.sessionName = 'polo'
