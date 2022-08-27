@@ -224,7 +224,7 @@ jumlahharian = `${dataa.value}`
 	}
 
 var listmsg = (from, title, desc, list) => { // ngeread nya pake rowsId, jadi command nya ga keliatan
-            let po = ALYA.prepareMessageFromContent(from, {"listMessage": {"title": title,"description": desc,"buttonText": "Pilih Disini","footerText": "𝐻𝑒𝑟𝑚𝑎𝑛 𝐶ℎ𝑎𝑛𝑒𝑙᭄𓅂","listType": "SINGLE_SELECT","sections": list, quoted:mek}}, {})
+            let po = ALYA.prepareMessageFromContent(from, {"listMessage": {"title": title,"description": desc,"buttonText": "Pilih Disini","footerText": "© 𝒁𝒆𝒏𝒏𝑺𝒌𝒚-𝑩𝒐𝒕𝒛","listType": "SINGLE_SELECT","sections": list, quoted:mek}}, {})
             return ALYA.relayWAMessage(po, {waitForAck: true, quoted:mek})
         }
 	    
@@ -627,7 +627,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                ALYA.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/f8d35118f27c5b371da2b.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n◦ 15k Per Group via E-Walet 1 Month\n◦ 20k via pulsa 1 Month\n\n Premium Price Bot\n◦ 10k per User 1 bulan\n\nPayment can be via Paypal/link aja/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/6281252848955 (Owner)\n\nDonate For Me : \n\n◦ Paypal : https://www.paypal.me/Rifando35\n◦ Saweria : https://saweria.co/Nando35` }, { quoted: m })
+                ALYA.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/a996c7600b535fa1257d5.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n◦ 15k Per Group via E-Walet 1 Month\n◦ 20k via pulsa 1 Month\n\n Premium Price Bot\n◦ 10k per User 1 bulan\n\nPayment can be via Gopay/Dana/Pulsa/Qris\n\nFor more details, you can chat with the owner\nhttps://wa.me/6289510598381 (Owner)\n\nDonate For Me : \n\n◦ Saweria : https://saweria.co/yogzkyz\n◦ Via IG : https://instagram.com/karfuanyogich` }, { quoted: m })
             }
             break
             case 'rules':{
@@ -647,20 +647,20 @@ Jika sudah dipahami rules-nya, silakan ketik *${prefix}menu* untuk memulai!`)
 break
             case 'sc':  case 'sourcecode': {
 	        anu = `
-◦ Script : https://github.com/Nando35/ALYAM
-◦ Script ori : https://github.com/DikaArdnt/ALYA-Morou
+◦ Script : https://github.com/YogzFX
+◦ Owner : wa.me/6289510598381
 
 Jangan lupa kasih bintang.
-◦ Donate : 628125284895 (Dana / gopay)
-◦ Saweria : https://saweria.co/Nando35
-◦ Paypal : https://www.paypal.me/Rifando35
+◦ Donate : 6289510598381 (Dana / Gopay)
+◦ Saweria : https://saweria.co/yogzkyz
+*NOTE: Kasih jajan lah minimal 1k juga gpp:v
 
 Dont Forget Donate
 `
 	                let btn = [{
                                 urlButton: {
                                     displayText: 'Instagram',
-                                    url: 'https://instagram.com/naando.jpeg'
+                                    url: 'https://instagram.com/karfuanyogich'
                                 }
                             }]
                         ALYA.send5ButImg(m.chat, anu, botname, global.sc, btn)
@@ -685,7 +685,7 @@ Alya
 	                let btn = [{
                                 urlButton: {
                                     displayText: 'Instagram',
-                                    url: 'https://instagram.com/naando.jpeg'
+                                    url: 'https://instagram.com/karfuanyogich'
                                 }
                             }]
                         ALYA.send5ButImg(m.chat, anu, botname, global.tq, btn)
@@ -1275,7 +1275,7 @@ break
             case 'delete': case 'del': {
                 if (!m.quoted) throw false
                 let { chat, fromMe, id, isBaileys } = m.quoted
-                if (!isBaileys) throw 'Pesan tersebut bukan dikirim oleh bot!'
+                if (!isBaileys) throw 'Itu bukan dari gua jir!'
                 ALYA.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: true, id: m.quoted.id, participant: m.quoted.sender } })
             }
             break
@@ -1290,8 +1290,8 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Source Code',
-                                    url: 'https://github.com/DikaArdnt/ALYA-Morou'
+                                    displayText: 'Owner Bot',
+                                    url: 'wa.me/6289510598381'
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
@@ -1309,8 +1309,8 @@ break
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: 'Source Code',
-                                    url: 'https://github.com/DikaArdnt/ALYA-Morou'
+                                    displayText: 'Owner Bot',
+                                    url: 'wa.me/6289510598381'
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
